@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="yourselection.xsl"?>
+<data>
+	<object instance="197784" dataInstance="41" name="Give As You Earn Flex" itemNumber="1" pageNumber="1" pagesAvailable="1">
+		<property id="{00fd4f20-8e9c-414f-b34f-2abd4a4dc3fe}" name="Effective Date">
+			<format id="{332f8155-7253-4dc9-896c-61a3a3d19816}" answer="30/05/2014 13:39:55" />
+		</property>
+		<property id="{ea61f121-1c2b-47df-91af-3806eba65c4b}" name="Benefit Type ID">
+			<format id="{05b7ea73-a86f-4119-b330-0a0f5a4e0143}" answer="GAYE" />
+		</property>
+		<object instance="197785" dataInstance="41" name="Default (GAYE)" itemNumber="1" pageNumber="1" pagesAvailable="1">
+			<property id="{7f428c44-7800-4972-ad37-a005824c251f}" name="Flex Default Amount">
+				<format id="{4cf95889-2249-4270-9ce0-9e2da5fedbb7}" answer="0" />
+			</property>
+			<property id="{cc70d36d-5700-41bf-9370-2ec34c6c7010}" name="Flex Default Cost">
+				<format id="{c7cf6728-47b3-4851-9633-f689b5391e88}" answer="0.0000" indicator="GBP" />
+			</property>
+		</object>
+		<object instance="197786" dataInstance="41" name="Model (GAYE)" itemNumber="1" pageNumber="1" pagesAvailable="1">
+			<property id="{ea123f721-1c2b-47df-91af-3806eba65c4b}" name="Chosen Charity">
+				<format id="{05b7ea73-a86f-4119-b330-0a0f5a4e0143}" answer="" />
+			</property>
+			<property id="{bf500440-3f1a-46ea-8937-1d8c4dfea274}" name="Flex Model Amount">
+				<format id="{4cf95889-2249-4270-9ce0-9e2da5fedbb7}" answer="0" />
+			</property>
+			<property id="{bf9af022-ba8b-46ed-b043-573c01ba2e1d}" name="Flex Model Cost">
+				<format id="{c7cf6728-47b3-4851-9633-f689b5391e88}" answer="0.0000" indicator="GBP" />
+			</property>
+			<property id="{2d94fe41-8492-4c5d-945a-a23bb5dfcf93}" name="Amount Liable for Tax">
+				<format id="{c7cf6728-47b3-4851-9633-f689b5391e88}" answer="0.0000" indicator="GBP" />
+			</property>
+			<property id="{8555974b-b80e-4704-9241-867cbb435523}" name="Amount Liable for NI">
+				<format id="{c7cf6728-47b3-4851-9633-f689b5391e88}" answer="0.0000" indicator="GBP" />
+			</property>
+		</object>
+		<object instance="197787" dataInstance="41" name="Requested (GAYE)" itemNumber="1" pageNumber="1" pagesAvailable="1">
+			<property id="{0a113492-faed-4c6e-be73-d6c14210f0b3}" name="Flex Requested Amount">
+				<format id="{4cf95889-2249-4270-9ce0-9e2da5fedbb7}" answer="0" />
+			</property>
+			<property id="{28db97f2-9346-498d-b0b7-724535af30c4}" name="Flex Requested Cost">
+				<format id="{c7cf6728-47b3-4851-9633-f689b5391e88}" answer="0.0000" indicator="GBP" />
+			</property>
+		</object>
+		<object instance="197788" dataInstance="41" name="Current (GAYE)" itemNumber="1" pageNumber="1" pagesAvailable="1">
+			<property id="{b0424854-bbf4-4299-080e-2480e6c09172}" name="Flex Current Amount">
+				<format id="{4cf95889-2249-4270-9ce0-9e2da5fedbb7}" answer="0" />
+			</property>
+			<property id="{2cb5ac07-a5c7-4bfd-9b15-925a6dd5ba6c}" name="Flex Current Discount Amount">
+				<format id="{c7cf6728-47b3-4851-9633-f689b5391e88}" answer="0.0000" indicator="GBP" />
+			</property>
+			<property id="{b8a7f2fe-9590-44ca-bc3d-027c76ff3dff}" name="Flex Current Value">
+				<format id="{05b7ea73-a86f-4119-b330-0a0f5a4e0143}" answer="0" />
+			</property>
+			<property id="{e133d446-443a-419e-812f-f6506f0101db}" name="Flex Current VAT Amount">
+				<format id="{c7cf6728-47b3-4851-9633-f689b5391e88}" answer="0.0000" indicator="GBP" />
+			</property>
+			<property id="{16d1795a-ad48-401e-9dc4-68f76310e238}" name="Flex Current Cost">
+				<format id="{c7cf6728-47b3-4851-9633-f689b5391e88}" answer="0.0000" indicator="GBP" />
+			</property>
+		</object>
+		<Object_ID ObjectName="Give As You Earn Flex" ParentDataInstance="47" ParentObjectInstance="197759" EmployeeObjectInstance="197993" EmployeeDataInstance="47" />
+		<ChildObject_ID ChildObjectName="Default (GAYE)" ChildObjectInstance="197785" />
+		<ChildObject_ID ChildObjectName="Model (GAYE)" ChildObjectInstance="197786" />
+		<ChildObject_ID ChildObjectName="Requested (GAYE)" ChildObjectInstance="197787" />
+		<ChildObject_ID ChildObjectName="Current (GAYE)" ChildObjectInstance="197788" />
+	</object>
+	<variables>
+		<variable type="request.querystring" name="DP" value="47:197738/47:197759/41:197784" />
+		<variable type="request.querystring" name="select" value="true" />
+		<variable type="ID" name="UserRole" value="Employee" />
+		<variable type="date" fulldate="14/08/2014 10:17:13" ukdate="14 August 2014" shortdate="14/08/2014" year="2014" month="8" monthname="August" day="14" timeGMT="14/08/2014 09:17:13" time="14/08/2014 10:17:13" />
+	</variables>
+	<options mode="Any Value" type="CoverLevel" inputName="Flex Model Amount|197786|41" modelValue="0" modelAdditionalValue="" currentValue="0" currentAdditionalValue="" formatting="Currency" suffix="Donation" minimum="1" maximum="11666.67" increment="0.01" charityName="">
+		<selectionText>Please select the amount that you would like to donate per pay period:</selectionText>
+		<additionalSelectionText />
+		<onChange>
+			validateDependants('',this.value,'No');toggleDeclarationBox(this.value)
+		</onChange>
+		<option value="0" location="0" cost="00" alias="No Donation" validation="No Cover" />
+	</options>
+</data>
