@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="yourselection.xsl"?>
 <data>
 	<object instance="197784" dataInstance="41" name="Give As You Earn Flex" itemNumber="1" pageNumber="1" pagesAvailable="1">
 		<property id="{00fd4f20-8e9c-414f-b34f-2abd4a4dc3fe}" name="Effective Date">

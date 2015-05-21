@@ -15,12 +15,8 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"/>
+
 <xsl:template match="/">
-
-<head>
-
-</head>
-
 <h2>Give As You Earn</h2>
 
 <table cellpadding="2">
@@ -29,9 +25,7 @@
 			<td><xsl:text>&pound;</xsl:text></td>
 			<td width="20"><input type="input" value="0" name="donation"/></td>
 		</tr>
-	</table
-
->
+	</table>
 <br />
 <br />
 
@@ -70,7 +64,7 @@
 	</tr>
 	<tr>
 		<td><xsl:text>Provider</xsl:text></td>
-		<td><xsl:text>Charities Aid Fundation</xsl:text></td>
+		<td><xsl:text>Charities Aid Foundation</xsl:text></td>
 	</tr>
 	<tr>
 		<td><xsl:text>Your selection</xsl:text></td>
@@ -83,14 +77,14 @@
 
 <table cellpadding="2">
 	<tr>
-		<td><xsl:text>Choosen Charity</xsl:text></td>
-		<td width="50"><xsl:value-of select="//property[@name = 'Choosen Charity']"/></td>
+		<td><xsl:text>Chosen Charity</xsl:text></td>
+		<td width="50"><xsl:value-of select="//property[@name = 'Chosen Charity']"/></td>
 	</tr>
 
 	<tr>
 		<td><xsl:text>Cost of your selection</xsl:text></td>
 		<td><xsl:text>&pound;</xsl:text></td>
-		<td><xsl:value-of select="//property[@name = 'Flex Model Cost']/format/@answer * (365div12)"/></td>
+		<td><xsl:value-of select="//property[@name = 'Flex Model Cost']/format/@answer * 12"/></td>
 	</tr>
 
 	<tr>
@@ -99,6 +93,13 @@
 		<td width="1%"><xsl:text>&pound;</xsl:text></td>
 		<td width="64%"><xsl:value-of select="//property[@name = 'Flex Model Cost']/format/@answer * (365 + 1div4 - 1div100 + 1div400)"/></td>
 	</tr>
+	
+</table>
+
+<table cellspacing="5" width="40%">
+	<td>
+	<input type="submit" value="Return to enrolment summary" onclick="return ChangeUrl()"/>
+	</td>
 </table>
 
 
